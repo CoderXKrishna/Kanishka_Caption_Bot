@@ -1,0 +1,43 @@
+{
+    "name": "Kαɳιʂԋƙα Cαρƚισɳ",
+    "description": "ʜᴇʏʏʏ ᴇᴠᴇʀʏᴏɴᴇ!! ɪᴛ'ꜱ ᴍᴇ ᴋᴀɴɪꜱʜᴋᴀ🙋‍♀.ʟᴇᴛ ᴍᴇ ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍʏꜱᴇʟꜰ ɪ'ᴍ ᴀ ᴀᴜᴛᴏᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ ᴡʜᴏꜱᴇ ꜰᴜɴᴄᴛɪᴏɴꜱ ᴀʀᴇ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ᴄᴀᴘᴛɪᴏɴ ᴛᴏ ᴀɴʏ ɪᴍᴀɢᴇ ᴠɪᴅᴇᴏ ᴏʀ ᴘᴏꜱᴛ ᴏꜰ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ.ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴛʜᴇʀᴇ ɪ'ʟʟ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴛᴀꜱᴋꜱ ᴇᴀꜱɪᴇʀ. ᴛʜᴀɴᴋʏᴏᴜ ꜱᴏ ᴍᴜᴄʜ ɪᴛ'ꜱ ᴀʟʟ ᴀʙᴏᴜᴛ ᴍᴇ!!✨",
+    "logo": "https://telegra.ph/file/a4938120c46050cd092f0.jpg",
+    "keywords": [
+        "Private",
+        "Auto",
+        "Caption",
+        "Bot"
+    ],
+    "website": "https://youtube.com/@Mr_Mrs_Krishna",
+    "repository": "https://github.com/CoderXKrishna/Kanishka_Caption_Bot",
+    "success_url": "https://youtube.com/@Mr_Mrs_Krishna",
+    "env": {
+        "app_id": {
+            "description": "Your APP ID From my.telegram.org",
+            "value": ""
+        },
+        "api_hash": {
+            "description": "Your API Hash From my.telegram.org",
+            "value": ""
+        },
+        "bot_token": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""        
+        },
+        "custom_caption": {
+            "description": "Caption Text.  use {file_name} to get original file name",
+            "required": false       
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
