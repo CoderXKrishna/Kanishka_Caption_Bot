@@ -8,9 +8,9 @@ try: app_id = int(os.environ.get("app_id", "1458059"))
 except Exception as app_id: print(f"⚠️ App ID Invalid {app_id}")
 try: api_hash = os.environ.get("api_hash", "f1c4e91f5e9f4d8637c8233091499068")
 except Exception as api_id: print(f"⚠️ Api Hash Invalid {api_hash}")
-try: bot_token = os.environ.get("bot_token", "6960347398:AAHmWSnAj6VU2mIFNZBbkD45-2lSTdswU1Y")
+try: bot_token = os.environ.get("bot_token", "6907627181:AAGdAdNi1K6VxgiXqjjJ6JsPY5DjzMbH80E")
 except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
-try: custom_caption = os.environ.get("custom_caption", "`{file_name}` It's my darling U and I can take over the world one step at a time just U and I✨🫶 #Mr_Mrs _Hitlerrr❤️")
+try: custom_caption = os.environ.get("custom_caption", "It's my darling U and I can take over the world one step at a time just U and I✨🫶 #Mr_Mrs _Hitlerrr❤️")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
 
 AutoCaptionBotV1 = pyrogram.Client(
